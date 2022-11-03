@@ -39,7 +39,7 @@
             </HBox>
             <HBox alignment="CENTER_LEFT" spacing="10">
                 <Label minHeight="-Infinity" minWidth="-Infinity" styleClass="title_name" text="Scholarship Name:"></Label>
-                <Label minHeight="-Infinity" minWidth="-Infinity" fx:id="scholarship" styleClass="cell_small_label" text="\$scholarship" />
+                <Label minHeight="-Infinity" minWidth="-Infinity" fx:id="scholarship" styleClass="cell_small_label" text="\$scholarship"  />
                 <ImageView>
                     <image>
                         <Image url="@../images/scholarship.png" />
@@ -69,7 +69,7 @@
             <RowConstraints />
         </rowConstraints>
     </GridPane>
-    <VBox alignment="CENTER">
+    <VBox alignment="TOP_RIGHT">
         <ImageView fx:id="flagIcon">
             <image>
                 <Image url="@../images/pin.png" />
